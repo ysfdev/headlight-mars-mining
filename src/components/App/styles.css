@@ -1,0 +1,15 @@
+.ui.container.App_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ui.header.App_header {
+  color: #fff;
+  font-size:2.5em;
+  padding-top: 10px;
+}
+
+.ui.message.infoMessage {
+  background-color: #455A64;
+}
+
