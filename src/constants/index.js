@@ -1,0 +1,1 @@
+export const DATA_FETCHING_INTERVAL = 1000;

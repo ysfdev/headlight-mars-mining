@@ -3,6 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
+import store from './store';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const renderApp = () => {
+  ReactDOM.render(<App />, document.getElementById('root'));
+};
+
+store.subscribe(renderApp);
+renderApp();
+
 serviceWorker.unregister();

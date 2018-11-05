@@ -1,22 +1,16 @@
 import React, { Component } from 'react';
-import {Header, Container, Message} from 'semantic-ui-react';
+import {Header, Container} from 'semantic-ui-react';
+import MineralTracker from '../../containers/MineralTracker';
 import './styles.css';
 
 class App extends Component {
   render() {
     return (
-      <Container className="App_container">
-        <div>
-          <Header as='h1' textAlign='center' className='App_header'>
-            Headlight Mass Service
-          </Header>
-          <Message
-            className="infoMessage"
-            icon='info'
-            header='Service Under Construction'
-            content="The Mass Service Data UI it's on development. Please check back later..."
-          />
-        </div>
+      <Container fluid className="App_container">
+        <Header as='h1' textAlign='center' className='App_header'>
+          Headlight Mars Mining Monitor
+        </Header>
+        <MineralTracker></MineralTracker>
       </Container>
     );
   }

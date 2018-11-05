@@ -1,0 +1,29 @@
+.MineralTracker_container {
+  margin: 0 auto;
+}
+
+.MineralTracker_table {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #fff;
+}
+.MineralTracker_table tr {
+  border: 1px solid #000;
+}
+
+.MineralTracker_table tr td {
+  padding: 5px;
+  border: 1px solid #000;
+}
+
+.activeNodeLocation {
+  background-color: #2185d0;
+}
+
+.activeBotLocation {
+  background-color: #db2828;
+}
+
+.activeNodeBotLocation {
+  background-color: #a333c8;
+}
